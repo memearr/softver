@@ -1,0 +1,15 @@
+[package]
+name = "softver"
+version = "0.1.0"
+edition = "2021"
+description = "Fast, forgiving parsing and comparison of real-world software version strings (1.41.3.9314-a0bfb8370, v2.0rc1, 'ffmpeg version 6.1.1-3ubuntu5')."
+license = "MIT"
+repository = "https://github.com/memearr/softver"
+readme = "README.md"
+keywords = ["version", "semver", "parse", "compare"]
+categories = ["parser-implementations"]
+
+[dependencies]
+
+[dev-dependencies]
+semver = "1"
